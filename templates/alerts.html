@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+    <h1 class="text-left mb-4">Alerts</h1>
+
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('my_domains') }}">Domains</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="{{ url_for('alerts') }}">Alerts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('scan_settings') }}">Scan Settings</a>
+        </li>
+    </ul>
+
+
+    <div class="container py-4">
+        <h2 class="mb-4">Alert Settings</h2>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="mb-3">
+                <label for="alert_email" class="form-label">Alert Email:</label>
+                {{ form.alert_email(class="form-control") }}
+                {% for error in form.alert_email.errors %}
+                    <div class="text-danger">{{ error }}</div>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn btn-primary">Save Email Settings</button>
+        </form>
+    </div>
+
+    <hr class="my-4">
+
+
+    <div class="container py-4">
+        <h2 class="mb-4">Select Domain for Whitelist</h2>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="selected_domain" class="form-label">Select Domain:</label>
+                <select name="selected_domain" class="form-select" required>
+                    <option value="" disabled selected>Select a domain</option>
+                    {% for domain in domains %}
+                        <option value="{{ domain.id }}" {% if selected_domain_id == domain.id|string %}selected{% endif %}>
+                            {{ domain.name }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Show Whitelist</button>
+        </form>
+
+        {% if selected_domain_id %}
+        <h3 class="mt-4">Add to Whitelist</h3>
+        <form method="POST">
+            <input type="hidden" name="selected_domain" value="{{ selected_domain_id }}">
+            <div class="input-group mb-3">
+                <input type="text" name="whitelist_domain" class="form-control" placeholder="Enter domain to whitelist" required>
+                <button class="btn btn-primary" type="submit">Add</button>
+            </div>
+        </form>
+
+        <h3>Whitelisted Domains</h3>
+        {% if whitelisted_domains %}
+            <ul class="list-group">
+                {% for entry in whitelisted_domains %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ entry.whitelisted_domain }}
+                        <form action="{{ url_for('remove_from_whitelist', entry_id=entry.id) }}" method="POST">
+                            <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                        </form>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="text-muted">No domains in the whitelist.</p>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

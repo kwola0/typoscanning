@@ -1,0 +1,17 @@
+flask~=3.0.2
+croniter~=3.0.3
+reportlab~=4.2.5
+python-dotenv~=0.21.0
+
+jellyfish~=1.0.1
+requests~=2.31.0
+future~=0.18.3
+ttkbootstrap~=1.10.1
+pillow~=10.3.0
+rq~=2.1.0
+gensim~=4.3.0
+metaphone~=0.6
+wtforms~=3.2.1
+regex~=2023.12.25
+redis~=5.2.1
+celery~=5.4.0

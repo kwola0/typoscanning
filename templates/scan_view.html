@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+    <h1 class="text-center mb-4">
+       Scan results for : {{ domain_input }} performed on {{ scan.date|format_datetime }}
+    </h1>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <strong>Number of Permutations:</strong> {{ total_permutations }}
+        </div>
+        <div class="col-md-4">
+            <strong>Number of Existing Domains:</strong> {{ found }}
+        </div>
+    </div>
+
+    <h3 class="mt-4">Scan Details</h3>
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th>Domain Permutation</th>
+                <th>IP Address</th>
+                <th>WHOIS Name Servers</th>
+                <th>WHOIS Registrar</th>
+                <th>WHOIS Country</th>
+                <th>WHOIS Creation Date</th>
+                <th>WHOIS Emails</th>
+                <th>Similarity Score</th>
+                <th>Reputation</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for domain in results %}
+            <tr>
+                <td>{{ domain.domain }}</td>
+                <td>{{ domain.ip_address }}</td>
+                <td>{{ domain.whois_info.name_servers }}</td>
+                <td>{{ domain.whois_info.registrar }}</td>
+                <td>{{ domain.whois_info.country }}</td>
+                <td>{{ domain.whois_info.creation_date }}</td>
+                <td>{{ domain.whois_info.emails }}</td>
+                <td>{{ domain.similarity_percent | default('0.0') }}%</td>
+                <td>
+                    {% if domain.reputation != "---" %}
+                        {{ domain.reputation }}
+                    {% else %}
+                        N/A
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ url_for('domain_history', domain_id=scan.domain.id) }}" class="btn btn-secondary mt-3">
+        Back to Scan History
+    </a>
+</div>
+{% endblock %}

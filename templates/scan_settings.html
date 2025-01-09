@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+    <h1 class="text-left mb-4">Scan Settings</h1>
+
+
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('my_domains') }}">Domains</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('alerts') }}">Alerts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="{{ url_for('scan_settings') }}">Scan Settings</a>
+        </li>
+    </ul>
+
+    <div class="d-flex justify-content-center mb-4">
+        <form method="POST" action="/scan-settings" class="w-50">
+            {{ form.hidden_tag() }}
+            <div class="mb-3">
+                {{ form.domain.label(class="form-label") }}
+                {{ form.domain(class="form-select") }}
+            </div>
+            <div class="mb-3">
+                {{ form.frequency.label(class="form-label") }}
+                {{ form.frequency(class="form-select") }}
+            </div>
+        <div class="mb-3">
+            <label for="custom_cron" class="form-label">Custom Cron</label>
+            <input type="text" id="custom_cron" name="custom_cron" class="form-control" placeholder="Enter your custom cron expression">
+            {% if form.custom_cron.errors %}
+                <div class="text-danger">
+                    {% for error in form.custom_cron.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <small id="cronError" class="text-danger" style="display: none;">Invalid cron expression. Example: * * * * *</small>
+            <small id="cronSuccess" class="text-success" style="display: none;">Valid cron expression.</small>
+        </div>
+
+            <div class="mb-3">
+                {{ form.submit(class="btn btn-primary w-100") }}
+            </div>
+        </form>
+    </div>
+
+    <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+        Setting saved successfully!
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const customCronInput = document.querySelector('#custom_cron');
+        const cronError = document.querySelector('#cronError');
+        const cronSuccess = document.querySelector('#cronSuccess');
+        const successMessage = document.querySelector('#successMessage');
+
+        function isValidCron(cron) {
+            const cronPattern = /^((\d+,)+\d+|\d+|\*|\*\/\d+|\d+-\d+|\?|L|W|#)+\s+((\d+,)+\d+|\d+|\*|\*\/\d+|\d+-\d+|\?|L|W|#)+\s+((\d+,)+\d+|\d+|\*|\*\/\d+|\d+-\d+|\?|L|W|#)+\s+((\d+,)+\d+|\d+|\*|\*\/\d+|\d+-\d+|\?|L|W|#)+\s+((\d+,)+\d+|\d+|\*|\*\/\d+|\d+-\d+|\?|L|W|#)(\s+((\d+,)+\d+|\d+|\*|\*\/\d+|\d+-\d+|\?|L|W|#))?$/;
+            return cronPattern.test(cron);
+        }
+
+        customCronInput.addEventListener('input', () => {
+            if (isValidCron(customCronInput.value)) {
+                cronError.style.display = 'none';
+                cronSuccess.style.display = 'block';
+                customCronInput.classList.remove('is-invalid');
+                customCronInput.classList.add('is-valid');
+            } else {
+                cronError.style.display = 'block';
+                cronSuccess.style.display = 'none';
+                customCronInput.classList.remove('is-valid');
+                customCronInput.classList.add('is-invalid');
+            }
+        });
+    });
+</script>
+{% endblock %}
