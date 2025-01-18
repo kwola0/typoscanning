@@ -24,7 +24,7 @@ class TestAlertConditions(unittest.TestCase):
             {
                 "domain": "clean-domain.com",
                 "whois_info": {"creation_date": "2023-01-01"},
-                "vt_data": {"reputation": 1},
+                "vt_data": {"reputation": 0},
                 "score": 5
             },
             {

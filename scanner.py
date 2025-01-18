@@ -6,8 +6,8 @@ import jellyfish
 from dotenv import load_dotenv
 
 from alerts import alert_conditions
-from dnsCheck import check_domain_exists, get_domain_ip
-from domainGenerator import (
+from dns_check import check_domain_exists, get_domain_ip
+from domain_generator import (
     generate_typo_domains,
     load_tlds,
     load_subdomains,

@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 import socket
-from dnsCheck import check_domain_exists, get_domain_ip
+from dns_check import check_domain_exists, get_domain_ip
 
 
 class TestDNSCheck(unittest.TestCase):

@@ -1,11 +1,11 @@
 import unittest
-from domainGenerator import (
+from domain_generator import (
     is_valid_domain, load_keyboard_proximity, load_tlds, generate_prefix_suffix_domains,
     generate_tld_replacements, generate_keyboard_proximity_domains,
     generate_visual_substitutions,
     generate_typo_domains, generate_removal_and_addition,
     generate_transposed_domains, generate_subdomain_domains,
-    generate_hyphen_dot_manipulations
+    generate_hyphen_dot_manipulations, generate_bitsquatting_domains
 )
 
 class TestDomainGenerator(unittest.TestCase):
@@ -69,6 +69,20 @@ class TestDomainGenerator(unittest.TestCase):
         domains = generate_hyphen_dot_manipulations("ex-ample", "com")
         self.assertIn("example.com", domains)
         self.assertIn("ex.ample.com", domains)
+
+    def test_generate_bitsquatting_domains(self):
+        base_tld = "com"
+        main_name = "cnn"
+        domains = generate_bitsquatting_domains(main_name, base_tld)
+
+        expected_domains = {
+            "con.com",
+            "bnn.com",
+            "cno.com"
+        }
+        for domain in expected_domains:
+            self.assertIn(domain, domains)
+        self.assertTrue(all(domain.endswith(f".{base_tld}") for domain in domains))
 
     def test_generate_typo_domains(self):
         tlds = ["net", "org"]

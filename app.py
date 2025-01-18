@@ -136,15 +136,15 @@ def my_domains():
             alerted_domains = json.loads(latest_scan.domains_alerted) if latest_scan.domains_alerted else []
             if alerted_domains:
                 domain.status = "Needs Attention"
-                print(f"[DEBUG] Domain: {domain.name} → Status: Needs Attention (Alerted domains found)")
+                print(f"[DEBUG] Domain: {domain.name}  Status: Needs Attention (Alerted domains found)")
             else:
                 domain.status = "Clean"
-                print(f"[DEBUG] Domain: {domain.name} → Status: Clean (No alerted domains)")
+                print(f"[DEBUG] Domain: {domain.name}  Status: Clean (No alerted domains)")
             domain.last_scanned = latest_scan.date
         else:
             domain.status = "Unknown"
             domain.last_scanned = None
-            print(f"[DEBUG] Domain: {domain.name} → Status: Unknown (No scans found)")
+            print(f"[DEBUG] Domain: {domain.name} Status: Unknown (No scans found)")
 
     return render_template("my_domains.html", domains=domains)
 
