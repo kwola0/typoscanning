@@ -1,0 +1,1227 @@
+[
+  {
+    "domain": "pw.edt.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.smtp.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwr.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "authoritative",
+    "group": "L"
+  },
+  {
+    "domain": "pg.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.beta.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.foundation",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.eduf.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.whm.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwedu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "server_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.helpdesk.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eduq.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edum.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.photography",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.edu.products.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "puw.edu.pl",
+    "status_code": 403,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.team.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.deu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "p2.edu.pl",
+    "status_code": 500,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.checkout.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.proxy.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.secure.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.upload.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.www.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.cloud.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.net",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "protected",
+    "group": "L"
+  },
+  {
+    "domain": "ipw.edu.pl",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.pl",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "server_error",
+    "group": "U"
+  },
+  {
+    "domain": "w.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.group",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eduo.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.imap.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.feedback.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.sms.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.images.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.help.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pu.edu.pl",
+    "status_code": 521,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.video",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.edu.center",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pd.edu.pl",
+    "status_code": null,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "paw.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.alpha.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.ddu.pl",
+    "status_code": 436,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.sites.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwi.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.finance",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.edu.preview.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.relay.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.tracking.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.mysql.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.blog.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.dedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "piw.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.wdu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.community.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.org",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.ediu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.old.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.start.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.store.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "ptw.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.services.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.cedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.yedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.events.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.metrics.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.search.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwe.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.training.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.wedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwn.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.clients.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.web.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "p.wedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.mail.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eeu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edui.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.aedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eduk.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.forums.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwp.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "authoritative",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.autodiscover.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.home.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "prw.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.elu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.directory.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.world",
+    "status_code": 521,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.resources.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.ed.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.app.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.office.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwa.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.bedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.careers.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eduz.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.calendar.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.stats.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.settings.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.alerts.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw-edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "ppw.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.download.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.dashboard.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.signup.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.chat.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.database.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.du.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edun.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edur.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.support",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.edue.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.gateway.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.team",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.community",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.tedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "kpw.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "server_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.viewer.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.exu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.control.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.law",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.udu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.etu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edv.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.video.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.mdu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.monitoring.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "ps.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "authoritative",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.health",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.efu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwe.du.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.oedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.partners.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.cp.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.sql.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edw.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.reviews.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eduy.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "wp.edu.pl",
+    "status_code": 520,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pt.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "authoritative",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edu.newsroom.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.payments.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edyu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edy.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.dev.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.luxury",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.fedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.care",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "protected",
+    "group": "L"
+  },
+  {
+    "domain": "pw.ledu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.static.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.iedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.ee",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edug.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.staging.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.lists.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.remote.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.update.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.wiki.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.billing.pl",
+    "status_code": 410,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pe.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "no_content",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.club",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edus.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.photos",
+    "status_code": 200,
+    "cert_valid": false,
+    "category": "scam",
+    "group": "M"
+  },
+  {
+    "domain": "pw.sedu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.localhost.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.analytics.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.my.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "spw.edu.pl",
+    "status_code": 403,
+    "cert_valid": true,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pbw.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.register.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "psw.edu.pl",
+    "status_code": 200,
+    "cert_valid": true,
+    "category": "coinciding",
+    "group": "L"
+  },
+  {
+    "domain": "pw.edku.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.esu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pwb.edu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.eudu.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  },
+  {
+    "domain": "pw.edu.img.pl",
+    "status_code": null,
+    "cert_valid": false,
+    "category": "crawl_error",
+    "group": "U"
+  }
+]
