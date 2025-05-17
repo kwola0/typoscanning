@@ -16,7 +16,7 @@ This project is a **Typosquatting Detection System** combined with a **scheduled
 
 1. **Clone the repository:**
 
-git clone https://gitlab-stud.elka.pw.edu.pl/kwolanin/typoscanning.git
+git clone [https://github.com/kwola0/typoscanning.git](https://github.com/kwola0/typoscanning.git) 
 
 
 
